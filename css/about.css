@@ -1,12 +1,19 @@
 .middle-content .boxes{
     display: none;
 }
+.bottom-content{
+    display: none;
+}
 .top-content img{
     margin-bottom: 25px;
 }
 .top-content {
     flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
-.top-content{
-    
+.top-content .text-container{
+    width: auto;
+    padding: 0 2%;
+    padding-bottom: 20px;
 }
