@@ -1,6 +1,12 @@
+/* Global */
+h1{
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* Global */
 /* Top Content */
 .top-content img{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .top-content {
     flex-direction: column;
@@ -13,24 +19,30 @@
     padding-bottom: 20px;
 }
 /* Top Content*/
+
 /* Middle Content*/
+.middle-content{
+    border: none;
+}
 .middle-content .boxes .text-container{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
     border-bottom: 1px dashed black;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .middle-content button{
     background: white;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 11px 30px;
     margin-top: 10px;
 }
 /* Middle Content*/
+
 /* Bottom Content*/
 .bottom-content{
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 /* Bottom Content*/
