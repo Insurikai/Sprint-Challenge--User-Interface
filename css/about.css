@@ -19,6 +19,13 @@
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.middle-content button{
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
 /* Middle Content*/
 /* Bottom Content*/
 .bottom-content{
