@@ -72,11 +72,11 @@ header{
 }
 header nav{
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
 }
 header a{
     text-decoration: none;
+    padding: 0 40px;
     color: black;
 }
 header a:visited{
