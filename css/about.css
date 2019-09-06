@@ -1,9 +1,4 @@
-.middle-content .boxes{
-    display: none;
-}
-.bottom-content{
-    display: none;
-}
+/* Top Content */
 .top-content img{
     margin-bottom: 25px;
 }
@@ -17,3 +12,11 @@
     padding: 0 2%;
     padding-bottom: 20px;
 }
+/* Top Content*/
+/* Middle Content*/
+/* Middle Content*/
+/* Bottom Content*/
+.bottom-content{
+    display: none;
+}
+/* Bottom Content*/
