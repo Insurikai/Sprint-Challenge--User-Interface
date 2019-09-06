@@ -84,6 +84,9 @@ header a{
 header a:visited{
     color: black;
 }
+header a:hover{
+    color: navy;
+}
 /* Header */
 
 .container {
@@ -135,7 +138,14 @@ header a:visited{
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box:hover {
+    animation: blackout .4s ease-out alternate;
+}
+@keyframes blackout{
+    50%{        
+        background-color: black;
+    }
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;

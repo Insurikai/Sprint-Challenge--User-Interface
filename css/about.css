@@ -37,6 +37,13 @@ h1{
     border-radius: 10px;
     padding: 11px 30px;
     margin-top: 10px;
+    cursor: pointer;
+}
+.middle-content button:focus{
+    outline: none;
+}
+.middle-content button:active{
+    background-color: dimgrey;
 }
 /* Middle Content*/
 
